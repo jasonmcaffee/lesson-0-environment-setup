@@ -31,6 +31,7 @@ README.md	jasmine.json	package.json	src		test
 ```
 ## Create new Intellij/Webstorm project
 File -> New -> Project From Existing Sources
+
 Navigate to and select lesson-0-environment-setup
 
 Follow the setup wizard.  Defaults options should be fine.
