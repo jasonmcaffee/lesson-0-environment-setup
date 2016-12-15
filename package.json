@@ -1,0 +1,30 @@
+{
+  "name": "lesson0",
+  "description": "Environment setup for javascript development using node.js",
+  "version": "0.0.1",
+  "license": "MIT",
+  "homepage": "",
+  "author": {
+    "name": "Jason McAffee",
+    "email": "jasonlmcaffee@gmail.com"
+  },
+  "keywords": [],
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jasonmcaffee/lesson-0-environment-setup.git"
+  },
+  "engines": {
+    "node": ">=7.1.0"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test-unit jasmine JASMINE_CONFIG_PATH=jasmine.json"
+  },
+  "bugs": {
+    "url": "https://github.com/jasonmcaffee/nn/issues"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
