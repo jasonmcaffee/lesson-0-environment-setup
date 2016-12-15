@@ -13,8 +13,29 @@ node --version
 v7.1.0
 ```
 
-## Install Intellij or Webstorm (optional)
-Intellij or Webstorm are some of the best IDEs for js development.
+## Clone this git repository
+Open a terminal and cd into the directory where you want to keep your lesson projects.
+
+Run:
+```
+git clone https://github.com/jasonmcaffee/lesson-0-environment-setup.git
+```
+
+Cd into the newly created dir and confirm files have been cloned:
+```
+cd lesson-0-environment-setup
+ls
+
+#should result in:
+README.md	jasmine.json	package.json	src		test
+```
+## Create new Intellij/Webstorm project
+File -> New -> Project From Existing Sources
+Navigate to and select lesson-0-environment-setup
+
+Follow the setup wizard.  Defaults options should be fine.
+
+Confirm you can expand the left hand navigation folder "lesson-0-environment-setup" to see the project files (e.g. src, test, README.md, etc)
 
 ### Configure the project to use ECMAScript 6
 For these lessons we will want to use the latest and greatest features of javascript.  By default Intellij will use ECMAScript 1.5, so we need to configure the project.
@@ -30,6 +51,7 @@ Node modules are installed to the local node_modules by default, but since we wi
 
 To install a node module globally, npm install is used, passing the "-g" option to indicate it should be installed globally.
 
+FYI you can do this from the Intellij terminal window, or in a separate terminal which is pointed to the project directory.
 ```
 npm install jasmine -g
 ```
